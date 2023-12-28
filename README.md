@@ -21,10 +21,10 @@
 - 구글링을 통해 전쟁을 겪은 사람들의 이미지를 수집하여 데이터셋을 구성하였습니다. dlib 라이브러리를 사용하여 얼굴 위주로만 크롭한 후 사용하였습니다.
 
 - **Model 1. StyleGAN2-based** StyleGAN2는 Styel transfer의 대표적인 모델인 StyleGAN에서 일부 문제를 개선한 모델입니다. input image(평범한 얼굴)과 style image(전쟁 이미지)를 입력하면 style image에서 style을 추출하여 원하는 style을 가진 이미지를 생성합니다. discriminator의 판별 성능과 함께 generator가 전쟁 style에 가까운 얼굴 이미지를 생성할 수 있도록 학습합니다.
-<p align="center"><img alt="Attention R2U-Net Learning Curve" src="assets/img2.png" width="80%" /></p>
+<p align="center"><img alt="StyleGAN2-based" src="assets/img2.png" width="80%" /></p>
 
 - **Model 2. Diffusion-based** Plug and Play Diffusion은 input image(평범한 얼굴)과 style text(전쟁 관련 키워드)를 입력하면 text에서 style을 추출하여 원하는 style을 가진 이미지를 생성합니다. Stable-Diffusion 기반의 모델이며, 학습이 필요하지 않습니다.
-<p align="center"><img alt="Robust U-Net Learning Curve" src="assets/img3.png" width="80%" /></p>
+<p align="center"><img alt="Diffusion-based" src="assets/img3.png" width="80%" /></p>
 
 ## 환경 설정
 
