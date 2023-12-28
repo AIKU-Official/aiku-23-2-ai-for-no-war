@@ -92,3 +92,6 @@ python3 pnp.py --config_path='config_pnp.yaml'
 
 <img src="assets/img6.png" width="47%" height="45%"><img src="assets/img7.png" width="45%" height="45%">
 <img src="assets/img5.png">
+
+## 팀원
+- [구은아](https://github.com/eunai9): 팀장, 아이디어 제안, Model 1 학습 및 inference
